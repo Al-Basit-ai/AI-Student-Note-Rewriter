@@ -1,0 +1,235 @@
+---
+name: Obsidian Lumina
+colors:
+  surface: '#051424'
+  surface-dim: '#051424'
+  surface-bright: '#2c3a4c'
+  surface-container-lowest: '#010f1f'
+  surface-container-low: '#0d1c2d'
+  surface-container: '#122131'
+  surface-container-high: '#1c2b3c'
+  surface-container-highest: '#273647'
+  on-surface: '#d4e4fa'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#d4e4fa'
+  inverse-on-surface: '#233143'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#ddb7ff'
+  on-secondary: '#490080'
+  secondary-container: '#6f00be'
+  on-secondary-container: '#d6a9ff'
+  tertiary: '#4cd7f6'
+  on-tertiary: '#003640'
+  tertiary-container: '#009eb9'
+  on-tertiary-container: '#002f38'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#f0dbff'
+  secondary-fixed-dim: '#ddb7ff'
+  on-secondary-fixed: '#2c0051'
+  on-secondary-fixed-variant: '#6900b3'
+  tertiary-fixed: '#acedff'
+  tertiary-fixed-dim: '#4cd7f6'
+  on-tertiary-fixed: '#001f26'
+  on-tertiary-fixed-variant: '#004e5c'
+  background: '#051424'
+  on-background: '#d4e4fa'
+  surface-variant: '#273647'
+typography:
+  headline-xl:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Geist
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 10px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system targets high-efficiency learners, researchers, and technical writers who operate in long-form, deep-focus study environments. It combines high-performance utilitarian software design with the atmospheric aesthetic of late-night technical terminals.
+
+The movement draws primarily from **High-Contrast AMOLED Minimalism** infused with **Subtle Cyber-Glass and Luminous Edge Accents**:
+- **Pure Absorption:** The background is non-reflective `#000000`, turning individual OLED pixels completely off to eliminate eye fatigue and frame distraction.
+- **Architectural Planes:** Information is separated not by heavy dropshadows or skeuomorphic bevels, but through deliberate value steps across obsidian and charcoal surfaces, defined by ultra-fine, razor-sharp borders.
+- **Luminous Precision:** Vibrant electric indigo, violet, and neon cyan accents operate as high-visibility signaling threads, guiding glanceability across dense rewriting panels and active syntax blocks.
+
+## Colors
+
+The palette is engineered specifically for self-illuminating displays, relying on infinite contrast ratios between the canvas and interactive foregrounds.
+
+### Surface System
+- **Canvas Base (`#000000`):** The ground plane. True 100% black; non-emissive on OLED displays.
+- **Surface Level 1 (`#0d0e15`):** Sidebars, canvas structural gutters, and inactive navigation backings.
+- **Surface Level 2 (`#141622`):** Note-taking editor cards, tool palettes, and primary grouping panels.
+- **Surface Level 3 (`#1c1e2e`):** Floating inspector panels, active study blocks, dropdown menus, and popovers.
+
+### Accent & Signal Tiers
+- **Electric Indigo (`#6366f1` / Light Accent `#818cf8`):** The primary focus driver. Used for active cursors, focus rings, primary action triggers, and active study session markers.
+- **Royal Violet (`#a855f7`):** Secondary accent. Dictates note-rewriting tags, AI synthesis triggers, and retention metrics.
+- **Radiant Emerald (`#10b981`):** Mastered flashcards, synchronized status, and completed learning targets.
+- **Luminous Cyan (`#06b6d4`):** Active syntax references, highlighted connections, and source material breadcrumbs.
+
+### Contrast Text & Linework
+- **Primary Text (`#ffffff`):** Uncompromised readability for markdown content, main headlines, and active text rewriting.
+- **Secondary Text (`#f1f5f9`):** Sub-headers, metadata values, and button labels.
+- **Muted Supporting Text (`#94a3b8`):** Timestamps, word counts, shortcuts, and placeholder text.
+- **Structural Stroke (`#23273a`):** Crisp 1px perimeter outlines applied to elevated surfaces to maintain structure over deep black backgrounds.
+
+## Typography
+
+The type scale is calibrated for intense split-screen study sessions and dense note restructuring.
+
+- **Headlines (Space Grotesk):** Provides structured geometric rigor with distinct technical character. Kerning is tucked slightly inward at larger scales to maintain visual density.
+- **Longform & Interface Body (Geist):** Neutral, hyper-legible neo-grotesque type crafted for screen rendering. Optimal line-height ratios preserve comfortable eye-tracking during continuous reading against absolute dark backings.
+- **Labels, Syntactic Tags & Metrics (JetBrains Mono):** Introduces exactness. All keyboard shortcuts, revision timestamps, flashcard counts, and code/markdown attributes leverage monospace layout to eliminate visual jitter during active edits.
+
+## Layout & Spacing
+
+The layout model enforces rigid visual partitioning across split-view work areas (e.g., raw source on the left, restructured notes on the right).
+
+- **Grid Architecture:** An adaptive multi-pane layout. On screens above 1024px, the interface defaults to a 3-column system (Collapsible Navigation / Source Document / Active Rewriter Workspace) using a fluid column structure with fixed `1.5rem` gutters.
+- **Margins & Safe Zones:** Canvas outer borders align to `margin-desktop` (`2rem`) on desktop and `margin` (`1rem`) on mobile devices, ensuring components never touch raw hardware bezels.
+- **Breakpoints:**
+  - *Mobile (< 768px):* Single-surface view with bottom tab navigation; panels switch through full-canvas swipes.
+  - *Tablet (768px – 1023px):* 2-pane split mode (Active workspace + Drawer panel); margins step down to `1.25rem`.
+  - *Desktop (≥ 1024px):* Simultaneous multi-pane view with dedicated contextual inspectors.
+
+## Elevation & Depth
+
+This system avoids traditional light-scattering drop shadows. Diffusion shadows turn murky and create muddy halos on true black displays. Instead, spatial hierarchy is constructed strictly through **Tonal Surface Stacking**, **Fine Structural Borders**, and **Micro-Glow Emittances**.
+
+- **Surface Tiers:**
+  - *Base (0dp):* `#000000` (Main canvas background).
+  - *Container (1dp):* `#0d0e15` with a 1px border of `#1a1d2d`.
+  - *Raised Deck (2dp):* `#141622` with a 1px border of `#23273a`.
+  - *Overlay/Flyout (3dp):* `#1c1e2e` with a 1px border of `#313752`.
+- **Glow & State Illumination:** Selected, focused, or actively synthesizing cards project a micro-emittance aura instead of a shadow: `0 0 20px -4px rgba(99, 102, 241, 0.18)`.
+- **Dividers & Separators:** Thin 1px lines using `#171926` define content boundaries within identical elevation levels without requiring contrast jumps.
+
+## Shapes
+
+The design system maintains a structured, refined geometry (`roundedness: 1`), utilizing sharp technical radiuses that frame dense textual material cleanly without wasting canvas space.
+
+- **Base Radius (0.25rem / 4px):** Applied to micro-elements, inline badges, monospace tags, checkboxes, and scroll thumbs.
+- **Medium Radius (0.5rem / 8px):** Standard interactive elements including primary buttons, input fields, flashcards, note tiles, and toolbars.
+- **Large Radius (0.75rem / 12px):** Root panel containers, flyout modals, and bottom-sheet interfaces.
+- **Pill (Full Round):** Exclusively reserved for status dots, audio playback scrubbing pills, and active user presence markers.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#6366f1` background with `#ffffff` text, transitioning on hover to `#818cf8` accompanied by an electric aura (`box-shadow: 0 0 16px rgba(99, 102, 241, 0.35)`). Active state scales slightly down (`transform: scale(0.98)`).
+- **Secondary / Ghost:** Transparent background enclosed by a 1px border of `#23273a` with `#f1f5f9` text. Hover shifts background to `#141622` and border to `#6366f1`.
+- **Destructive:** Surface `#141622` with a 1px border of `#ef4444` and text `#f87171`. Glow shifts to subtle red emittance.
+
+### Input Fields & Editor Blocks
+- **Input Elements:** Background `#0d0e15`, border 1px solid `#23273a`, text `#ffffff`, placeholder `#94a3b8`.
+- **Focus State:** 1px border turns solid `#818cf8` with a subtle interior illumination effect (`box-shadow: inset 0 0 0 1px #818cf8, 0 0 12px rgba(129, 140, 248, 0.2)`).
+- **Rewriting Diff Block:** Deleted/original text highlighted with low-opacity rose surface (`rgba(244, 63, 94, 0.1)`) and border; restructured/generated text highlighted with emerald tint (`rgba(16, 185, 129, 0.1)`) and bright emerald text.
+
+### Chips & Monospace Tags
+- **Base Tag:** Background `#141622`, 1px border `#23273a`, font JetBrains Mono (`label-sm`), text `#94a3b8`.
+- **Active / Filtered Tag:** Background `rgba(99, 102, 241, 0.12)`, 1px border `#6366f1`, text `#818cf8`.
+- **AI Rewriter Tag:** Background `rgba(168, 85, 247, 0.12)`, 1px border `#a855f7`, text `#c084fc`.
+
+### Cards & Notes
+- **Default Card:** Surface `#0d0e15` with 1px border `#1e2235`. Inner padding set to `space-md` (`1rem`).
+- **Interactive Study Card:** Elevated to `#141622` on hover with a smooth transition to border color `#3b4263`. Active card border transitions to `#6366f1`.
+
+### Checkboxes & Radio Controls
+- **Unchecked:** 16x16px frame with 4px border-radius, background `#000000`, 1px border `#313752`.
+- **Checked:** Background `#6366f1`, border `#6366f1`, bearing a 1.5px crisp white check indicator.
+
+### Status Indicators & Badges
+- **Live Sync / Status Pip:** 6px pill with pulsing dot (`#10b981`), backed by `rgba(16, 185, 129, 0.2)` ring.
+- **Revision Indicator:** Monospace counter positioned in the upper right card corner using `#06b6d4` text and `0.25rem` padding.
